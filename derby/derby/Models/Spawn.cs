@@ -8,8 +8,10 @@ namespace derby.Models
 {
     class Spawn
     {
-        public Vector3 Pos { get; set; }
-        
+        public Vector3 position { get; set; }
+
+        public float rotation { get; set; }
+
         public int vehid { get; set; }
     }
 }

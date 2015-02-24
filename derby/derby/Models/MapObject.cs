@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace derby.Models
 {
-    public class Euler
+    public class MapObject
     {
+        public Vector3 position { get; set; }
 
+        public Vector3 rotation { get; set; }
+
+        public int model { get; set; }
     }
 }

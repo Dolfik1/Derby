@@ -10,6 +10,16 @@ namespace derby.World
 {
     public class Player : GtaPlayer
     {
+        public int VotedMapID;
+
+        public bool isInDD;
+
+        public Vehicle DDVehicle;
+
+        public bool Voted;
+
+        public bool Muted;
+
 
         public Player(int id)
             : base(id)

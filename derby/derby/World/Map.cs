@@ -1,4 +1,5 @@
-﻿using SampSharp.GameMode.Pools;
+﻿using derby.Models;
+using SampSharp.GameMode.Pools;
 using SampSharp.GameMode.World;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,11 @@ namespace derby.World
 {
     public class Map : IdentifiedPool<Map>, IIdentifiable
     {
-        public List<GtaVehicle> TargetVehicle { get; set; }
+        public List<Spawn> Spawns { get; set; }
+
+        public List<Racepickup> Racepickups { get; set; }
+
+        public List<MapObject> MapObjects { get; set; }
+
     }
 }

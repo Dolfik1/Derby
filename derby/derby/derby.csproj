@@ -46,8 +46,7 @@
     <Compile Include="Controllers\PlayerController.cs" />
     <Compile Include="Controllers\VehicleController.cs" />
     <Compile Include="GameMode.cs" />
-    <Compile Include="Models\Euler.cs" />
-    <Compile Include="Models\GameObject.cs" />
+    <Compile Include="Models\MapObject.cs" />
     <Compile Include="Models\Racepickup.cs" />
     <Compile Include="Models\Spawn.cs" />
     <Compile Include="Models\Vector3.cs" />
