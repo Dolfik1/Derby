@@ -1,4 +1,4 @@
-﻿using derby.Models;
+﻿using Derby.Models;
 using SampSharp.GameMode.Events;
 using SampSharp.GameMode.World;
 using SampSharp.Streamer.World;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace derby.World
+namespace Derby.World
 {
     class VehiclePickup
     {

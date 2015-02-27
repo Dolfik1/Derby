@@ -1,4 +1,4 @@
-﻿using derby.Controllers;
+﻿using Derby.Controllers;
 using SampSharp.GameMode;
 using SampSharp.GameMode.Controllers;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace derby
+namespace Derby
 {
     public class GameMode : BaseMode
     {

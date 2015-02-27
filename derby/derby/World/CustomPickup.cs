@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace derby.World
+namespace Derby.World
 {
     public class CustomPickup : IdentifiedPool<CustomPickup>, IIdentifiable
     {

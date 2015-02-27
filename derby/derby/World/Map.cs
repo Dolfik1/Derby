@@ -1,4 +1,4 @@
-﻿using derby.Models;
+﻿using Derby.Models;
 using SampSharp.GameMode.Pools;
 using SampSharp.GameMode.World;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace derby.World
+namespace Derby.World
 {
     public class Map : IdentifiedPool<Map>, IIdentifiable
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace derby.Models
+namespace Derby.Models
 {
     public class Vector3
     {
