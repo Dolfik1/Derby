@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "derby", "derby\derby.csproj", "{BEA07AFB-B831-45FE-9F1B-71FE513CDADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampSharp.Streamer", "SampSharp.Streamer\SampSharp.Streamer.csproj", "{F3B075C9-82AA-4F06-BC37-457097F65315}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BEA07AFB-B831-45FE-9F1B-71FE513CDADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEA07AFB-B831-45FE-9F1B-71FE513CDADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEA07AFB-B831-45FE-9F1B-71FE513CDADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B075C9-82AA-4F06-BC37-457097F65315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B075C9-82AA-4F06-BC37-457097F65315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B075C9-82AA-4F06-BC37-457097F65315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B075C9-82AA-4F06-BC37-457097F65315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

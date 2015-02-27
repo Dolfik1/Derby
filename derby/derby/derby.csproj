@@ -46,6 +46,7 @@
     <Compile Include="Controllers\PlayerController.cs" />
     <Compile Include="Controllers\VehicleController.cs" />
     <Compile Include="GameMode.cs" />
+    <Compile Include="World\CustomPickup.cs" />
     <Compile Include="Models\MapObject.cs" />
     <Compile Include="Models\Racepickup.cs" />
     <Compile Include="Models\Spawn.cs" />
@@ -54,6 +55,16 @@
     <Compile Include="World\Map.cs" />
     <Compile Include="World\Player.cs" />
     <Compile Include="World\Vehicle.cs" />
+    <Compile Include="World\VehiclePickup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SampSharp.Streamer\SampSharp.Streamer.csproj">
+      <Project>{f3b075c9-82aa-4f06-bc37-457097f65315}</Project>
+      <Name>SampSharp.Streamer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
