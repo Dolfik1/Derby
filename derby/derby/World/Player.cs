@@ -1,4 +1,5 @@
 ﻿using SampSharp.GameMode.Events;
+using SampSharp.GameMode.SAMP.Commands;
 using SampSharp.GameMode.World;
 using System;
 using System.Collections.Generic;
@@ -58,6 +59,20 @@ namespace Derby.World
         {
          
             base.OnUpdate(e);
+        }
+
+        public override void OnText(TextEventArgs e)
+        {
+            string txt = String.Format("{0}({1}): {2}", Name, Id, e.Text);
+            TextEventArgs args = new TextEventArgs(txt);
+            args.SendToPlayers = e.SendToPlayers;
+            base.OnText(args);//e);
+        }
+        
+        [Command("hi")]
+        public void hi()
+        {
+            SendClientMessageToAll(SampSharp.GameMode.SAMP.Color.Red, "Player {0} say hi!", this.Name);
         }
     }
 }

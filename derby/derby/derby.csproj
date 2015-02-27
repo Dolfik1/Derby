@@ -42,11 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\MapController.cs" />
     <Compile Include="Controllers\PlayerController.cs" />
     <Compile Include="Controllers\VehicleController.cs" />
     <Compile Include="GameMode.cs" />
-    <Compile Include="World\CustomPickup.cs" />
     <Compile Include="Models\MapObject.cs" />
     <Compile Include="Models\Racepickup.cs" />
     <Compile Include="Models\Spawn.cs" />

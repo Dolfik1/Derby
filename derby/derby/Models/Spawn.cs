@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Derby.Models
 {
-    class Spawn
+    public class Spawn
     {
         public Vector3 position { get; set; }
 
         public float rotation { get; set; }
 
         public int vehid { get; set; }
+
+        public Spawn()
+        { }
     }
 }

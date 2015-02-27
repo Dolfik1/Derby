@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Derby.World
 {
-    public class Map : IdentifiedPool<Map>, IIdentifiable
+    public class Map
     {
         public List<Spawn> Spawns { get; set; }
 
-        public List<Racepickup> Racepickups { get; set; }
+        public List<VehiclePickup> Racepickups { get; set; }
 
         public List<MapObject> MapObjects { get; set; }
 
