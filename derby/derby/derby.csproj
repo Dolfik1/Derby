@@ -45,13 +45,15 @@
     <Compile Include="Controllers\PlayerController.cs" />
     <Compile Include="Controllers\VehicleController.cs" />
     <Compile Include="GameMode.cs" />
+    <Compile Include="Helper\PlayerHelper.cs" />
+    <Compile Include="Helper\VehicleHelper.cs" />
     <Compile Include="Models\MapObject.cs" />
-    <Compile Include="Models\Racepickup.cs" />
     <Compile Include="Models\Spawn.cs" />
-    <Compile Include="Models\Vector3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="World\Map.cs" />
     <Compile Include="World\Player.cs" />
+    <Compile Include="World\SpectateState.cs" />
+    <Compile Include="World\SpectatingMode.cs" />
     <Compile Include="World\Vehicle.cs" />
     <Compile Include="World\VehiclePickup.cs" />
   </ItemGroup>

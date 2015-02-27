@@ -12,14 +12,14 @@ using System.Timers;
 
 namespace Derby.World
 {
-    enum VehiclePickupType
+    public enum VehiclePickupType
     { 
         nitro,
         repair,
         vehicle
     }
 
-    class VehiclePickup
+    public class VehiclePickup
     {
         private DynamicPickup _pickup;
         private DynamicArea _area;
